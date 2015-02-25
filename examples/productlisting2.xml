@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="looping3.xsl" type="text/xsl" ?>
+<catalog>
+<product sku='212993'>Lamp</product>
+<product sku='488839'>Folder</product>
+<product sku='198102'>Stapler</product>
+<product sku='91882'>Notebook</product>
+<product sku='873638'>Inbox</product>
+<product sku='192839'>Desk</product>
+<product sku='66553'>Pen</product>
+<product sku='38289'>Calculator</product>
+</catalog>
+
+

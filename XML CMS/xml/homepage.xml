@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<webcopy ID="homepage">
+<navigationlabel>Home</navigationlabel>
+<headline>Welcome to the XML Test CMS</headline>
+<description>Here's where you can learn about CMS tools built in XML.</description>
+<pubdate>2004-01-20</pubdate>
+<body>
+<![CDATA[
+<p>Learn, baby, learn!</p>
+]]>
+</body>
+</webcopy>

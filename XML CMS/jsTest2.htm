@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Netscape/Mozilla - XML/XSL/JavaScript test</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<script language="Javascript" src="Sarissa.js"></script>
+
+<script>
+// get the source document
+var oDomDoc = Sarissa.getDomDocument();
+oDomDoc.async = false;
+oDomDoc.load("someDocument.xml");
+
+// get the stylesheet document
+var oXslDoc = Sarissa.getDomDocument();
+oXslDoc.async = false;
+oXslDoc.load("aStylesheet.xsl");
+
+// transform and store the results to a string
+//var sResult = oDomDoc.transformNode(oXslDoc);
+document.write(oDomDoc.transformNode(oXslDoc);
+</script>
+</head>
+
+<body id="result" style="margin: 20px;">
+<!-- transformation will be displayed here -->
+</body>
+</html>

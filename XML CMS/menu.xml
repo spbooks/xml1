@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<menu>
+<item label="home" target="index.htm"/>
+<item label="services" target="services.htm"/>
+<item label="about us" target="aboutus.htm"/>
+<item label="contact us" target="contactus.htm"/>
+<item label="kb" target="kb.htm"/>
+
+</menu>
+

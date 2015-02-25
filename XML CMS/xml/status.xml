@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<status-listing>
+<status term="in progress">
+</status>
+
+<status term="live">
+<content type ="article" id="article1" authorID="11" categoryID="3" expireDate="2006-12-01"/>
+<content type ="webcopy" id="webcopy3" authorID="11" categoryID="3" expireDate="2006-12-01"/>
+<content type ="webcopy" id="webcopy12" authorID="11" categoryID="1" expireDate="2006-12-01"/>
+<content type ="webcopy" id="webcopy33" authorID="11" categoryID="4" expireDate="2006-12-01"/>
+</status>
+
+<status term="expired">
+</status>
+</status-listing>
+

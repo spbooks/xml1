@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<admins><admin ID="1"><name>Joe</name><username>joe</username><password>joe</password><email>joe@myerman.com</email></admin><admin ID="2"><name>Bill</name><username>bill</username><password>bill</password><email>bill@myerman.com</email></admin><admin ID="3"><name>Tom</name><username>tom</username><password>tom</password><email>tom@myerman.com</email></admin></admins>

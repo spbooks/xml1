@@ -1,0 +1,15 @@
+<script language="JavaScript">
+var text="<menu>";
+text=text+"<meal><title>Buddha's Delight</title>";
+text=text+"<desc>A feast for the senses!</desc>";
+text=text+"<price>$4.95</price>";
+text=text+"</meal></menu>";
+
+var xml = new ActiveXObject("Microsoft.XMLDOM");
+xml.async="false";
+xml.loadXML(text);
+
+document.write(xml.documentElement.childNodes(0).childNodes(0).nodeName)
+document.write("<br />")
+document.write(xml.documentElement.childNodes(0).childNodes(0).nextSibling.nodeName)
+</script>

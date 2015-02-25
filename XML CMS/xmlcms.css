@@ -1,0 +1,41 @@
+/* CSS Document */
+#navTop{
+	position:absolute; 
+	width:875px; 
+	height:auto; 
+	left: 10px; 
+	top: 10px; 
+	background-color: white; 
+	border: 1px solid #999999;
+	margin: 2px;
+	padding: 2px;
+	font-family:Helvetica,Arial,sans-serif;
+
+}
+
+#navSide{
+	position:absolute; 
+	width:250px; 
+	height:600px; 
+	left: 10px; 
+	top: 190px; 
+	background-color: #cccccc; 
+	border: 1px solid #999999;
+	margin: 2px;
+	padding: 2px;
+	font-family:Helvetica,Arial,sans-serif;
+
+}
+
+#mainContent{
+	position:absolute; 
+	width:600px; 
+	height:auto; 
+	left: 275px; 
+	top: 195px; 
+	background-color: white; 
+	border: 1px none #000000
+	margin: 4px;
+	padding: 4px;
+	font-family:Helvetica,Arial,sans-serif;
+}

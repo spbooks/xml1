@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:tddm="http://www.tripledogdaremedia.com/rdf"
+>
+<rdf:Description rdf:about="http://www.tripledogdaremedia.com/kbcontent.php?contentid=8">
+<dc:creator>Thomas Myer</dc:creator>
+<dc:title>A Content Management Primer</dc:title>
+<dc:date>December 5, 2002</dc:date>
+
+<tddm:keywords>
+<rdf:Bag>
+     <rdf:li>CMS</rdf:li>
+     <rdf:li>content management</rdf:li>
+     <rdf:li>how to</rdf:li>
+</rdf:Bag>
+</tddm:keywords>
+</rdf:Description>
+</rdf:RDF> 

@@ -1,0 +1,18 @@
+<!ELEMENT internalmemo (header,body)>
+<!ELEMENT header (date, senderx, recipients, blind-recipients?, subject)>
+<!ELEMENT body (para+,sig)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT senderx (#PCDATA)>
+<!ELEMENT recipients (#PCDATA)>
+<!ELEMENT blind-recipients (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT sig (#PCDATA)>
+<!ELEMENT para (#PCDATA|b|i)*>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT i (#PCDATA)>
+<!ATTLIST internalmemo
+	priority (low|medium|high) #REQUIRED
+	initials CDATA #REQUIRED
+	expiredate CDATA #REQUIRED
+	origin (marketing|accounting|finance|hq|sales|ops) #REQUIRED
+>

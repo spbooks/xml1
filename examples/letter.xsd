@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2000/10/XMLSchema">
+
+<xsd:element name="sent" type="xsd:date"/>
+<xsd:element name="to" type="xsd:string"/>
+<xsd:element name="from" type="xsd:string"/>
+<xsd:element name="message" type="xsd:string"/>
+
+<xsd:element name="letter">
+<xsd:complexType>
+<xsd:sequence>	
+	<xsd:element ref="sent"/>
+	<xsd:element ref="to"/>
+	<xsd:element ref="from"/>
+	<xsd:element ref="message"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+

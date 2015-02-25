@@ -1,0 +1,67 @@
+<script>
+
+//Specify path to xml file
+var xmlsource="menu.xml"
+
+//load xml file
+if (window.ActiveXObject)
+var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+else if (document.implementation && document.implementation.createDocument)
+var xmlDoc= document.implementation.createDocument("","doc",null);
+xmlDoc.load(xmlsource)
+}
+
+
+nodes=xmlDoc.documentElement.childNodes //captures all items
+
+label.innerText=    nodes.item(0).text;
+target.innerText=  nodes.item(1).text;
+
+
+/*
+//Regular expression used to match any non-whitespace character
+var notWhitespace = /\S/
+
+function init_menu(){
+//Cache root element of xml file
+menuobj=xmlDoc.getElementsByTagName("menu")[0]
+
+//REMOVE white spaces in XML file. Intended mainly for NS6/Mozilla
+for (i=0;i<menuobj.childNodes.length;i++){
+if ((menuobj.childNodes[i].nodeType == 3)&&(!notWhitespace.test(menuobj.childNodes[i].nodeValue))) {
+	menuobj.removeChild(menuobj.childNodes[i])
+	i--
+}
+}
+for (var i=0; i <= menuobj.childNodes.length; i++){
+	//document.getElementById("container").innerHTML=menuobj.childNodes[0].firstChild.firstChild.nodeValue
+	document.write(menuobj.childNodes[i].childNodes[0].firstChild.nodeValue + " ");
+	document.write(menuobj.childNodes[i].childNodes[1].firstChild.nodeValue + "<br>");
+}
+}
+
+
+function fetchxml(){
+if (xmlDoc.readyState==4)
+init_menu()
+else
+setTimeout("fetchxml()",10)
+}
+
+if (window.ActiveXObject)
+fetchxml()
+else if (typeof xmlDoc!="undefined")
+xmlDoc.onload=init_menu
+
+*/
+</script>
+
+<body>
+<b>Label: </b>
+<span id="label"> </span>
+<br />
+<b>Target: </b>
+<span id="target"> </span>
+<br />
+
+</body>

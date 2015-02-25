@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE internalmemo SYSTEM "internalMemo.dtd">
+<internalmemo priority="high" initials="hjd" expiredate="01/01/2008" origin="marketing">
+<header>
+<date>01/05/2004</date>
+<sender>Thomas Myer</sender>
+<recipients>Marketing Department</recipients>
+<subject>Sell more stuff</subject>
+</header>
+<body>
+<para>This is a <i>simple</i> memo from the marketing department: sell <b>more</b> stuff!</para>
+<sig>Thomas Myer</sig>
+</body>
+</internalmemo>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="chapter2HTML.xsl" version="1.0"?>
+<chapter number="1">
+<title>XML Example</title>
+<para type="intro">This is an introductory paragraph. It doesn't belong to any of the sections.</para>
+<section>
+	<title>Section 1</title>
+<para type="intro">This is the <b>first</b> paragraph of section 1.</para>
+<para type="normal">Second paragraph.</para>
+<para type="note">This is a note!</para>
+<para type="warning"><b>Warning</b>...don't even think about turning the page yet!</para>
+<section>
+<title>Section 1.1</title>
+<para type="intro">Looks like we started another section here!</para>
+</section>
+</section>
+<section>
+<title>Section 2</title>
+<para type="intro">And the chapter continues...</para>
+</section>
+</chapter>

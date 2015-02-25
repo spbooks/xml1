@@ -1,0 +1,32 @@
+<html>
+<head>
+<script language="Javascript" src="Sarissa.js"></script>
+
+
+<script type="text/javascript">
+
+function initMenu(xfile){
+	var xmlDoc = Sarissa.getDomDocument();
+	xmlDoc.async = false;
+	xmlDoc.load(xfile);
+
+	nodes=xmlDoc.documentElement.childNodes
+
+	for (var i=0; i<=nodes.length -1; i++){
+		var output =  "<a href='"+ nodes.item(i).getAttribute("target")+ "'>"+
+			nodes.item(i).getAttribute("label") + "</a><br>";
+		//document.write(output);
+		document.getElementById("content").innerHTML += output;
+	}		
+	
+
+}
+</script>
+
+<title>XML Based Menu</title>
+</head>
+<body onLoad="initMenu('menu.xml')">
+<div id="content"> </div>
+</body>
+</html>
+
